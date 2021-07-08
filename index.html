@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!--Link icons-->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <!--FONT AWESOME-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <!--Link for local custom css -->
+
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!--JQUERY-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!--  Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--Script for header-->
+    <script>
+      $(function () {
+        $("#inlcudemynavbar").load("./html/header.html");
+      });
+    </script>
+
+    <!--Script for footer -->
+    <script>
+      $(function () {
+        $("#inlcudemyfooter").load("./html/footer.html");
+      });
+    </script>
+    <title>Search Result</title>
+  </head>
+
+  <body>
+    <!-- Navbar starts here-->
+    <div id="inlcudemynavbar"></div>
+    <!-- Navbar ends here-->
+
+    <section class="white-section">
+      <!--Breadcrumbs start here-->
+      <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
+        <ol id="breadcumb-searchresult" class="breadcrumb">
+          <li class="breadcrumb-item">
+            <a class="breadcumb-searchresult-anc" href="#">All Cultures</a>
+          </li>
+          <li
+            class="breadcumb-searchresult-anc breadcrumb-item active"
+            aria-current="page"
+          >
+            Music
+          </li>
+        </ol>
+      </nav>
+      <p id="location-searchresult">
+        San Francisco, CA
+        <i class="location-searchresult-icon fas fa-map-marker-alt"></i>
+      </p>
+      <!--Breadcrumbs ends here-->
+
+      <!--Search Results headings and buttons start here-->
+      <div class="hor-elem ">
+
+        <h2 id="fe-heading2">Filters</h2>
+        <h2 id="se-heading">Search Results</h2>
+        
+        <label class="se-sort-by"> Sort by</label> 
+        
+        
+<select class=" form-select-search-result form-select">
+  <option selected>Price</option>
+  <option value="Cultures">Cultures</option>
+  <option value="Date">Date</option>
+  <option value="Event Type">Event Type</option>
+</select>
+
+
+<div class="btn-group-se-format btn-group" role="group" aria-label="Basic radio toggle button group">
+  <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+  <label id="se-radio-btn-format1" class="btn2 btn btn-outline-primary" for="btnradio1"><strong>All</strong></label>
+
+  <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+  <label id="se-radio-btn-format2" class="btn2 btn btn-outline-primary" for="btnradio2"> <strong>In Person</strong></label>
+
+  <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+  <label id="se-radio-btn-format3" class="btn2 btn btn-outline-primary" for="btnradio3"><strong>Online</strong></label>
+</div>  
+
+</div>
+ <!--Search Results headings and buttons end here-->
+     
+    </section>
+    <!--Search Result items start here-->
+<section class="white-section2">
+<div class="search-result-cards-format">
+  <h4 class="se-heading2">Music & Dance</h4>
+
+<div class="search-result-cards">
+<img src="https://i.ytimg.com/vi/tGukAgMhqEI/maxresdefault.jpg" alt="">
+<p class="search-result-banner">Middle Eastern</p>
+<h6 class="se-heading3">Music Party: Connecting with Music</h6>
+
+<div class="se-card-main-para">
+  <p class="se-para1">Sat, Aug 21, 2021 | 11:00 AM PST </p>
+  <p class="se-para2">San Franciso City Hall | San Francisco, CA </p>
+  <p class="se-para3">From $20.00 </p>
+  </div>
+</div>
+
+
+
+<div class="search-result-cards">
+  <img src="https://thumbs.dreamstime.com/b/black-girl-playing-guitar-recording-studio-young-trendy-long-curly-hair-sitting-smile-pleasure-close-up-193031739.jpg" alt="">
+  <p class="search-result-banner">African American</p>
+  <h6 class="se-heading3">Diana Ross and The Motown Sound - Livestream Music <br> History Program </h6>
+  
+  <div class="se-card-main-para">
+    <p class="se-para1">Sat, Aug 21, 2021 | 11:00 AM PST </p>
+    <p class="se-para2">San Franciso City Hall | San Francisco, CA </p>
+    <p class="se-para3">From $20.00 </p>
+    </div>
+  </div>
+
+  
+<div class="search-result-cards">
+  <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/BE8F/production/_117738784_tv066462884.jpg" alt="">
+  <p class="search-result-banner">Latin</p>
+  <h6 class="se-heading3">Latin Music Dance Party (Salsa, Reggaetion, Bachata, <br> Merengue) ZOOM</h6>
+  
+  <div class="se-card-main-para">
+    <p class="se-para1">Sat, Aug 21, 2021 | 11:00 AM PST </p>
+    <p class="se-para2">Online / Zoom </p>
+    <p class="se-para3">From $20.00 </p>
+    </div>
+  </div>
+
+  
+<div class="search-result-cards">
+  <img src="data:image/jpeg;base64,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" alt="">
+  <p class="search-result-banner">African American</p>
+  <h6 class="se-heading3">Marvin Gaye and The Motown Sound -Livestream Music <br> History Program </h6>
+  
+  <div class="se-card-main-para">
+    <p class="se-para1">Sat, Aug 21, 2021 | 11:00 AM PST </p>
+    <p class="se-para2">Online </p>
+    <p class="se-para3">From $20.00 </p>
+    </div>
+  </div>
+  
+<div class="search-result-cards">
+  <img src="https://thumbs.dreamstime.com/b/photo-portrait-pretty-black-skinned-girl-singing-microphone-dancing-stage-isolated-bright-blue-color-background-203517258.jpg" alt="">
+  <p class="search-result-banner">African American</p>
+  <h6 class="se-heading3">Black Diamond Queens: African American Women and Rock <br> and Roll</h6>
+  
+  <div class="se-card-main-para">
+    <p class="se-para1">Sat, Aug 21, 2021 | 11:00 AM PST </p>
+    <p class="se-para2">San Franciso City Hall | San Francisco, CA </p>
+    <p class="se-para3">From $20.00 </p>
+    </div>
+  </div>
+  
+  
+
+</div>
+
+
+
+</section>
+
+
+<!-- Sidebar Filter Accordion starts here -->
+  <div class=" se-accordin-setting accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        <strong class="se-para5">Cultures</strong>
+        </button>
+      </h2>
+      <div id="collapseOne" class="overflow-auto accordion-collapse collapse  " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <div class=" accordion-body ">
+          <p class="se-para4">Apply any option</p>
+          <div class="">
+            <label class=" se-form-check-label form-check-label" for="flexCheckDefault">
+          All Cultures (23)
+            </label>
+            <input class=" se-form-check-input form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          
+          </div>
+          <div class="">
+            <label class="se-form-check-label form-check-label" for="flexCheckDefault">
+          African American (4)
+            </label>
+            <input class="se-form-check-input form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          
+          </div>
+
+          <div class="">
+            <label class="se-form-check-label form-check-label" for="flexCheckDefault">
+          Chinese (3)
+            </label>
+            <input class="se-form-check-input form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          
+          </div>
+
+          <div class="">
+            <label class="se-form-check-label form-check-label" for="flexCheckDefault">
+          French (3)
+            </label>
+            <input class="se-form-check-input form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          
+          </div>
+
+
+          <div class="">
+            <label class="se-form-check-label form-check-label" for="flexCheckDefault">
+          Korean (3)
+            </label>
+            <input class="se-form-check-input form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          
+          </div>
+
+          <div class="">
+            <label class="se-form-check-label form-check-label" for="flexCheckDefault">
+          Japanese (2)
+            </label>
+            <input class="se-form-check-input form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          
+          </div>
+          <div class="">
+            <label class="se-form-check-label form-check-label" for="flexCheckDefault">
+          Italian (1)
+            </label>
+            <input class="se-form-check-input form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          
+          </div>
+
+          <div class="">
+            <label class="se-form-check-label form-check-label" for="flexCheckDefault">
+          Mexican (1)
+            </label>
+            <input class="se-form-check-input form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          
+          </div>
+
+          <div class="">
+            <label class="se-form-check-label form-check-label" for="flexCheckDefault">
+        Persian (1)
+            </label>
+            <input class="se-form-check-input form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          
+          </div>
+          <div class="">
+            <label class="se-form-check-label form-check-label" for="flexCheckDefault">
+        Swiss (1)
+            </label>
+            <input class="se-form-check-input form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          
+          </div>
+          <div class="">
+            <label class="se-form-check-label form-check-label" for="flexCheckDefault">
+        Vitenamese (1)
+            </label>
+            <input class="se-form-check-input form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+   <strong class="se-para5">Event Type</strong>
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <p class="se-para4"> Apply any option</p>
+          <div class="">
+            <label class="se-form-check-label form-check-label" for="flexCheckDefault">
+          Dance & Music (23)
+            </label>
+            <input class="se-form-check-input form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          
+          </div>
+          <div class="">
+            <label class="se-form-check-label form-check-label" for="flexCheckDefault">
+          Art (4)
+            </label>
+            <input class=" se-form-check-input form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          
+          </div>
+
+          <div class="">
+            <label class="se-form-check-label form-check-label" for="flexCheckDefault">
+          Food & Drink (3)
+            </label>
+            <input class="se-form-check-input form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          
+          </div>
+
+          <div class="">
+            <label class="se-form-check-label form-check-label" for="flexCheckDefault">
+          Fashion (3)
+            </label>
+            <input class="se-form-check-input form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          
+          </div>
+
+          <div class="">
+            <label class="se-form-check-label form-check-label" for="flexCheckDefault">
+          Sport & Wellness (3)
+            </label>
+            <input class="se-form-check-input form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          
+          </div>
+          <div class="">
+            <label class="se-form-check-label form-check-label" for="flexCheckDefault">
+          Health (3)
+            </label>
+            <input class="se-form-check-input form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          
+          </div>
+
+          <div class="">
+            <label class="se-form-check-label form-check-label" for="flexCheckDefault">
+       Hoilday (2)
+            </label>
+            <input class="se-form-check-input form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          
+          </div>
+
+          <div class="">
+            <label class="se-form-check-label form-check-label" for="flexCheckDefault">
+          Spirituality(1)
+            </label>
+            <input class="se-form-check-input form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          
+          </div>
+
+          <div class="">
+            <label class="se-form-check-label form-check-label" for="flexCheckDefault">
+          Bussiness (1)
+            </label>
+            <input class="se-form-check-input form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          
+          </div>
+        </div>
+      </div>
+    </div>
+ 
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          <strong class="se-para5">Price</strong>
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <div class="">
+<a href="http://">
+           <label class="se-form-check-label form-check-label" for="flexCheckChecked">
+          Free
+            </label></a>
+         
+          </div>
+
+          <div class="">
+
+      <a href="http://">  <label class="se-form-check-label form-check-label" for="flexCheckChecked">
+           Paid
+             </label></a>
+          
+           </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingFour">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+         <strong class="se-para5">Date</strong>
+        </button>
+      </h2>
+      <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <div class="">
+            <a href="http://">
+                       <label class="se-form-check-label form-check-label" for="flexCheckChecked">
+                      Any Date
+                        </label></a>
+                     
+                      </div>
+            
+                      <div class="">
+            
+                  <a href="http://">  <label class="se-form-check-label form-check-label" for="flexCheckChecked">
+                       Today
+                         </label></a>
+                      
+                       </div>
+
+
+                       
+                      <div class="">
+            
+                        <a href="http://">  <label class="se-form-check-label form-check-label" for="flexCheckChecked">
+                             This Week
+                               </label></a>
+                            
+                             </div>
+
+
+                             
+                      <div class="">
+            
+                        <a href="http://">  <label class="se-form-check-label form-check-label" for="flexCheckChecked">
+                             This Month
+                               </label></a>
+                            
+                             </div>
+
+
+                             <div class="">
+            
+                              <a href="http://">  <label class="se-form-check-label form-check-label" for="flexCheckChecked">
+                                  Next Month
+                                     </label></a>
+                                  
+                                   </div>
+
+                                   
+                      <div class="">
+            
+                        <a href="http://">  <label class="se-form-check-label form-check-label" for="flexCheckChecked">
+                           Choose Date
+                               </label></a>
+                            
+                             </div>
+        </div>
+      </div>
+    </div>
+
+    
+
+
+  </div>
+<!-- Sidebar Filter Accordion ends here -->
+
+
+<!--Search Result items start ends-->
+    <!-- Footer starts here-->
+    <div id="inlcudemyfooter"></div>
+    <!-- Footer ends here-->
+  </body>
+</html>

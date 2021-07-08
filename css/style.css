@@ -1,0 +1,979 @@
+#main-nav {
+  border-bottom: 3px solid #f6f5f0;
+}
+
+
+
+#nav-main-search-btn{
+background-color: #e07a5f;
+}
+/* CSS for first input text in navbar*/
+#nav-music {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  text-indent: 14px;
+}
+
+
+
+/* CSS for second input text in navbar*/
+
+#nav-location {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  width: 150px;
+  text-indent: 14px;
+}
+
+/*CSS for main logo in navbar*/
+.main-logo {
+  margin-left: 40px;
+  width: 240px;
+  height: 50px;
+
+
+}
+
+/*CSS for icons in input field*/
+i {
+  position: absolute;
+  padding: 10px;
+
+}
+
+/*Footer CSS begins*/
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: acumin-pro, system-ui, sans-serif;
+  margin: 0;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  font-size: 14px;
+
+  align-items: start;
+  min-height: 100vh;
+}
+
+.footer {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 30px 30px 20px 30px;
+
+
+  background-color: #f4f1de;
+  border-top: 1px solid #f4f1de
+}
+
+.footer>* {
+  flex: 1 100%;
+}
+
+.footer__addr {
+  margin-right: 1.25em;
+  margin-bottom: 2em;
+}
+
+.footer__logo {
+
+  width: 200px;
+  height: 50px;
+
+}
+
+.footer__addr h2 {
+  margin-top: 1.3em;
+  font-size: 15px;
+  font-weight: 400;
+  margin-left: 1em;
+}
+
+.nav__title {
+  font-weight: 600;
+  font-size: 12px;
+  color: #e07a5f
+}
+
+.footer address {
+  font-style: normal;
+  color: #999;
+}
+
+#footer__btn {
+  width: 80px;
+  height: 32px;
+  background-color: #e07a5f;
+  color: #f4f1de;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-style: none;
+}
+
+.footer ul {
+  list-style: none;
+  padding-left: 0;
+  color: b, a
+}
+
+.footer li {
+  line-height: 2em;
+
+}
+
+#footer-input {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  width: 5px;
+  height: 32px;
+  font-size: 11.2px;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer__nav {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.footer__nav>* {
+  flex: 1 50%;
+  margin-right: 1.25em;
+}
+
+.nav__ul a {
+  color: black;
+  font-size: 13px;
+}
+
+.nav__ul--extra {
+  column-count: 2;
+  column-gap: 1.25em;
+}
+
+.legal {
+  display: flex;
+
+  background-color: #456a87;
+  height: 42px;
+  margin-left: -30px;
+  margin-right: -30px;
+  margin-bottom: -30px;
+  color: #e8ecf0;
+  padding-left: 30px;
+  padding-top: 10px;
+  font-size: 10px;
+}
+
+.legal__links {
+  display: flex;
+  align-items: center;
+  color: #e8ecf0;
+  padding-right: 50px;
+  font-size: 10px;
+}
+
+.heart {
+  color: #2f2f2f;
+}
+
+@media screen and (min-width: 24.375em) {
+  .legal .legal__links {
+    margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 40.375em) {
+  .footer__nav>* {
+    flex: 1;
+  }
+
+  .nav__item--extra {
+    flex-grow: 2;
+  }
+
+  .footer__addr {
+    flex: 1 0px;
+  }
+
+  .footer__nav {
+    flex: 2 0px;
+  }
+}
+
+.footer-app {
+  position: relative;
+  border-radius: 2px;
+  cursor: pointer;
+  border: 1px solid #456a87;
+  background-color: transparent;
+  height: 40px;
+  width: 90px;
+  color: #456a87;
+  font-size: 10px;
+  margin-top: 20px;
+  margin-right: 0px;
+
+
+}
+
+#footer-app-icon {
+
+  color: #456a87;
+  font-size: 21px;
+  padding-top: 26px;
+  padding-left: 5px;
+
+
+}
+
+#footer-button-format {
+
+  text-align: right;
+  text-indent: 15px;
+  line-height: 15px;
+}
+
+svg {
+  size: 80px;
+}
+
+#fab2 {
+  position: relative;
+  font-size: 25px;
+  padding-top: 25px;
+}
+
+#fab3 {
+  position: relative;
+  font-size: 25px;
+  padding-left: 5px;
+  padding-top: 25px;
+}
+
+
+#fab4 {
+  position: relative;
+  font-size: 25px;
+  padding-left: 10px;
+  padding-top: 25px;
+}
+
+#fab5 {
+  position: relative;
+  font-size: 25px;
+  padding-left: 15px;
+  padding-top: px;
+}
+
+/*Footer CSS ends*/
+
+/*CSS for index page*/
+
+/* Carousel CSS starts here*/
+
+/* Size*/
+.carousel-size {
+
+  height: 700px;
+}
+
+/*Indicator Buttons*/
+
+.carousel-indicators {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin-right: 15%;
+  margin-bottom: 1rem;
+  margin-left: 15%;
+  list-style: none;
+}
+
+.carousel-indicators [data-bs-target] {
+  box-sizing: content-box;
+  flex: 0 1 auto;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  padding: 0;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #e07a5f;
+  background-clip: padding-box;
+  border: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  opacity: 0.5;
+  transition: opacity 0.6s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .carousel-indicators [data-bs-target] {
+    transition: none;
+  }
+}
+
+.carousel-indicators .active {
+  opacity: 20;
+}
+
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 1.25rem;
+  left: 15%;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: #fff;
+  text-align: center;
+}
+
+.carousel-dark .carousel-control-prev-icon,
+.carousel-dark .carousel-control-next-icon {
+  filter: invert(1) grayscale(100);
+}
+
+.carousel-dark .carousel-indicators [data-bs-target] {
+  background-color: #000;
+}
+
+.carousel-dark .carousel-caption {
+  color: #000;
+}
+
+
+
+
+
+/* Headings for Slides*/
+.carousel-heading {
+  position: relative;
+  text-indent: -870px;
+  bottom: 150px;
+  font-size: 50px;
+
+}
+
+.carousel-heading2 {
+  position: relative;
+  text-indent: -1025px;
+  bottom: 150px;
+  font-size: 50px;
+
+}
+
+.carousel-heading3 {
+  position: relative;
+  text-indent: -825px;
+  bottom: 150px;
+  font-size: 50px;
+
+}
+
+.carousel-heading4 {
+  position: relative;
+  text-indent: -800px;
+  bottom: 150px;
+  font-size: 50px;
+
+}
+
+/*Button Carousel*/
+.carousel-button {
+  position: relative;
+  right: 550px;
+  bottom: 145px;
+}
+
+
+
+/* Featured Events CSS*/
+
+#featuredevents {
+
+  background-color: #f6f5f0;
+
+  width: 100%;
+  position: relative;
+  top: 50px;
+  z-index: -1;
+}
+
+/* h2 css in featured events*/
+#fe-heading2 {
+  color: #456a87;
+  text-indent: 115px;
+}
+
+#anchorfe-heading6 {
+  color: #e07a5f;
+  padding-top: 15px;
+  text-decoration: none;
+}
+
+#fe-heading6 {
+  color: #456a87;
+
+
+}
+
+/* CSS for cards*/
+.card {
+  width: 370px;
+  border-radius: 0px;
+  box-shadow: #000;
+  height: 76%;
+
+}
+
+.card-footer {
+  border: none;
+  margin-left: -16px;
+
+}
+
+.card-foot-text {
+  color: #e07a5f;
+  font-weight: bold;
+}
+
+.card-body {
+  text-indent: -20px;
+  height: 225px;
+  position: relative;
+  bottom: 60px;
+}
+
+
+.cust-card-img {
+  position: relative;
+  bottom: 16px;
+  right: 16px;
+  width: 368px;
+  height: 275px;
+}
+
+.card-banner {
+  background-color: #ffff;
+  color: black;
+  position: relative;
+  width: 70px;
+  height: 30px;
+  text-align: center;
+  border-radius: 12px;
+  position: relative;
+  bottom: 270px;
+  left: 270px;
+}
+
+
+/* Popular Events CSS*/
+#popularevents {
+  background-color: #ffffff;
+
+  width: 100%;
+  position: relative;
+
+  padding-top: 50px;
+  z-index: -1;
+}
+
+
+
+/* Upcoming Events CSS*/
+#upcomingevents {
+
+  background-color: #f6f5f0;
+
+  width: 100%;
+  position: relative;
+  top: 50px;
+  z-index: -1;
+
+}
+
+/*White Container*/
+.white-section {
+  background-color: #ffffff;
+
+  width: 100%;
+  position: relative;
+
+
+
+}
+
+.white-section2 {
+  background-color: #ffffff;
+
+  width: 100%;
+  position: relative;
+
+  bottom: 50px;
+
+  
+  height: 1000px;
+
+
+}
+
+
+
+
+
+
+
+
+
+/*Peach Container*/
+.peach-section {
+
+  background-color: #f6f5f0;
+
+  width: 100%;
+  position: relative;
+  top: 50px;
+  z-index: -1;
+}
+
+/* breadcrumb format*/
+#breadcumb-searchresult {
+
+  position: relative;
+  top: 86px;
+  left: 425px;
+
+  font-size: 1em;
+
+}
+
+/* breadcrumb list format*/
+#breadcumb-searchresult li {
+
+  color: black;
+  font-size: 14px;
+  letter-spacing: 0.4px;
+  font-weight: bold;
+  font-family: 'Heebo', sans-serif;
+}
+
+/* breadcrumb anchor taf format*/
+.breadcumb-searchresult-anc {
+  text-decoration: none;
+  color: black;
+}
+
+
+/* breadcrumb location*/
+#location-searchresult {
+  position: relative;
+  top: 43px;
+  left: 1120px;
+
+  font-size: 14px;
+  letter-spacing: 0.4px;
+  font-weight: bold;
+  font-family: 'Heebo', sans-serif;
+}
+
+/* breadcrumb location icon*/
+.location-searchresult-icon {
+  color: #456a87;
+  position: relative;
+  bottom: 1px;
+}
+
+/* radio button styling*/
+.form-select-search-result {
+  width: 130px;
+  height: 40px;
+
+  border: 2px solid #456a87;
+  color: #456a87;
+  font-weight: 600;
+  position: relative;
+  left: 285px;
+}
+
+
+/*headings and buttons formatting */
+
+.hor-elem {
+  display: flex;
+  position: relative;
+  top: 50px;
+  z-index: 2;
+}
+
+/*Sort by label*/
+.se-sort-by {
+  color: #456a87;
+  position: relative;
+  left: 275px;
+  top: 8px;
+  font-size: 16px;
+}
+
+/*Search Result heading*/
+#se-heading {
+  color: #456a87;
+  position: relative;
+  left: 224px
+}
+
+/* format button group*/
+.btn-group-se-format {
+  position: relative;
+  left: 460px;
+}
+
+/*  button styling*/
+.btn2 {
+  width: 85px;
+  height: 37px;
+  color: #456a87;
+  border: 2px solid #456a87;
+  font-size: 0.9em;
+  font-weight: 500;
+  border-radius: 8%;
+  position: relative;
+  top: 4px;
+}
+
+/*  button styling effect 1*/
+.btn2:hover {
+  color: #fff;
+  background-color: #456a87;
+  border-color: #456a87;
+}
+
+
+/*  button styling effect 2*/
+.btn-check:active+.btn2,
+.btn-check:checked+.btn2,
+.btn2.active,
+.btn2.dropdown-toggle.show,
+.btn2:active {
+  color: #fff;
+  background-color: #456a87;
+  border-color: #456a87;
+}
+
+/*  button styling effect 3*/
+.btn2.disabled,
+.btn2:disabled {
+  color: #456a87;
+  background-color: transparent
+}
+
+/*  radio button 1 right border*/
+#se-radio-btn-format1 {
+  border-right: none;
+}
+
+/*  radio button 2 right border*/
+#se-radio-btn-format2 {
+  border-left: none;
+  border-right: none;
+}
+
+
+/*  radio button 3 right border*/
+#se-radio-btn-format3 {
+  border-left: none;
+}
+
+
+.se-heading2 {
+  color: #456a87;
+  position: relative;
+  left: 425px;
+  bottom: 15px;
+  font-size: 1.53em;
+  font-weight: 600;
+  padding-top: 50px;
+}
+
+.search-result-cards-format {
+  position: relative;
+  top: 75px;
+  z-index: 1;
+}
+
+.search-result-cards {
+  background-color: #f6f5f0;
+  position: relative;
+  left: 425px;
+  width: 885px;
+  height: 210px;
+  margin-bottom: 5px;
+}
+
+.search-result-cards img {
+  background-color: #f6f5f0;
+  position: relative;
+
+  width: 290px;
+  height: 210px;
+  margin-bottom: 5px;
+}
+
+.search-result-banner {
+  border: 1px solid #81b29a;
+  background-color: #81b29a;
+  color: #e8ecf0;
+  width: 120px;
+  text-align: center;
+  height: 25px;
+  border-radius: 25px;
+  font-size: 1em;
+  position: relative;
+  bottom: 205px;
+  left: 315px;
+}
+
+.se-heading3 {
+  position: relative;
+  bottom: 210px;
+  left: 315px
+}
+
+.se-para1 {
+  color: black;
+  position: relative;
+  top: 20px;
+}
+
+.se-para2 {
+  color: black;
+  position: relative;
+  top: 10px;
+}
+
+.se-para3 {
+  color: #e07a5f;
+  font-weight: 500;
+
+}
+
+.se-card-main-para {
+  position: relative;
+  bottom: 189px;
+  left: 315px;
+}
+
+
+/* Side bar filter css*/
+
+
+
+
+.se-accordin-setting {
+  position: relative;
+  width: 300px;
+  bottom: 935px;
+  left:100px;
+  background-color: #fff;
+  z-index:1;
+
+}
+/* accordion outside styling begins here*/
+@media (prefers-reduced-motion:reduce) {
+  .accordion-button {
+ 
+    transition: none;
+ 
+  }
+}
+
+.accordion-button:not(.collapsed) {
+  color: #456a87;
+ 
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .125)
+  
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%230c63e4'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  transform: rotate(-360deg);
+
+  
+}
+
+.accordion-button::after {
+  flex-shrink: 0;
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-left: auto;
+  content: "";
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-size: 1.25rem;
+  transition: transform .2s ease-in-out;
+  transform: rotate(-90deg);
+ 
+}
+
+@media (prefers-reduced-motion:reduce) {
+  .accordion-button::after {
+    transition: none
+  }
+}
+
+.accordion-button:hover {
+  z-index: 2
+}
+
+.accordion-button:focus {
+  z-index: 3;
+
+  outline: 0;
+  
+}
+
+.accordion-header {
+  margin-bottom: 0;
+ 
+}
+
+.accordion-item {
+  background-color:#f6f5f0;
+  border-bottom: 4px solid #81b29a; 
+  border-top:none;
+  border-left: none;
+  border-right: none;
+}
+
+.accordion-item:first-of-type {
+  border-top-left-radius: .0rem;
+  border-top-right-radius: 0rem;
+
+}
+
+.accordion-item:first-of-type .accordion-button {
+  border-top-left-radius: calc(.25rem - 1px);
+  border-top-right-radius: calc(.25rem - 1px);
+  background-color:#f6f5f0;
+}
+
+.accordion-item:nth-of-type(2) .accordion-button {
+  border-top-left-radius: calc(.25rem - 1px);
+  border-top-right-radius: calc(.25rem - 1px);
+  background-color: #f6f5f0;
+}
+.accordion-item:nth-of-type(3) .accordion-button {
+  border-top-left-radius: calc(.25rem - 1px);
+  border-top-right-radius: calc(.25rem - 1px);
+  background-color: #f6f5f0;
+}
+.accordion-item:not(:first-of-type) {
+  border-top: 0;
+}
+
+.accordion-item:last-of-type {
+  border-bottom-right-radius: 0rem;
+  border-bottom-left-radius: 0rem;
+  background-color:#f6f5f0;
+}
+
+
+.accordion-item:last-of-type .accordion-button.collapsed {
+  border-bottom-right-radius: calc(0rem - 1px);
+  border-bottom-left-radius: calc(0rem - 1px);
+  background-color:#f6f5f0;
+  
+}
+
+.accordion-item:last-of-type .accordion-collapse {
+  border-bottom-right-radius:0rem;
+  border-bottom-left-radius: 0rem;
+  background-color:#f6f5f0;
+
+}
+
+/* accordion outside styling ends here*/
+
+
+/* accordion inside styling starts here*/
+.accordion-body {
+  padding: 1rem 1.25rem
+  ;
+  background-color: #fff;
+
+  height: 250px;
+  overflow-y: auto;
+}
+
+
+.se-form-check-label{
+color:#456a87;
+font-size: 17px;
+position: relative;
+top: 3px;
+}
+
+.se-form-check-input{
+  background-color:#f6f5f0;
+  position: relative;
+
+  height:25px;
+  width:25px;
+  left: 220px;
+  bottom:25px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+
+::-webkit-scrollbar {
+  width: 20px;
+  
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+
+  background-color: #f6f5f0;
+  
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #81b29a; 
+  border-radius: 5px;
+}
+
+.se-para4{
+  color:black;
+font-size: 17px;
+position: relative;
+top: 3px;
+}
+
+.se-para5{
+  font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* accordion inside styling end here*/
